@@ -123,3 +123,31 @@
             setCurrentUser(null)
         * crabby hands and add button to current user&&
             * onClick=(logoutUser)
+
+# Fom scratch
+
+    * is-cmoplete check box
+    *How to get user Id for to-do
+        * User id = current user
+            * client.auth.user().id
+            client.from('todos').insert([{ task: task, user_id: clien.tauith.user().id }]); in todos.js
+        * getUser client.auth.session
+
+# Plan
+
+    *signin and sign Up same as today
+    * Simpler dog adoption
+        * less fields
+        * One page. where
+            * simple list,
+            * simple form to do
+        * more complicated
+            * additional to pass up user informaiton when making a dog
+        * not current user, show AUth, can set auth component.
+        * check componsnets in inspector for proper states
+            * Each state detemines what function will be called.
+
+# Next day notes
+
+    * Allow react to change the state for us.
+    * toggelCompleted is like updateDog
